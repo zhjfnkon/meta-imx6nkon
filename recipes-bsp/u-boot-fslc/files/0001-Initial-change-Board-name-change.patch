@@ -1,0 +1,25 @@
+From a765762bb7c58c4951e5d3abd4d7c7773533c31a Mon Sep 17 00:00:00 2001
+From: Zhang_jf <13601303988@139.com>
+Date: Sat, 23 Sep 2017 15:53:08 +0800
+Subject: [PATCH] Initial change: Board name change
+
+---
+ board/freescale/mx6sabresd/mx6sabresd.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/board/freescale/mx6sabresd/mx6sabresd.c b/board/freescale/mx6sabresd/mx6sabresd.c
+index 80a7789..51c369a 100644
+--- a/board/freescale/mx6sabresd/mx6sabresd.c
++++ b/board/freescale/mx6sabresd/mx6sabresd.c
+@@ -709,7 +709,7 @@ int board_late_init(void)
+ 
+ int checkboard(void)
+ {
+-	puts("Board: MX6-SabreSD\n");
++	puts("Board: MX6-Nkon\n");
+ 	return 0;
+ }
+ 
+-- 
+2.7.4
+
